@@ -1,0 +1,28 @@
+{
+  "name": "cron-manager",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "cron-manager",
+    "description": "Description of Cron Manager plugin",
+    "kind": "plugin",
+    "displayName": "Cron Manager"
+  },
+  "dependencies": {
+    "cron-parser": "^4.5.0",
+    "moment": "^2.29.4"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
