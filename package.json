@@ -1,6 +1,6 @@
 {
     "name": "@strapi/cron-manager",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This is the description of the plugin.",
     "strapi": {
         "name": "cron-manager",
@@ -8,12 +8,13 @@
         "kind": "plugin",
         "displayName": "Cron Manager"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DeadActive/strapi-cron-manager.git"
+    },
     "dependencies": {
         "cron-parser": "^4.5.0",
         "moment": "^2.29.4"
-    },
-    "peerDependencies": {
-        "@strapi/strapi": "^4.0.0"
     },
     "author": {
         "name": "DeadActive"
